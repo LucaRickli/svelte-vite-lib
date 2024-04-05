@@ -7,7 +7,8 @@ export default defineConfig({
   plugins: [svelte()],
   resolve: {
     alias: {
-      $: resolve(__dirname, "src"),
+      $lib: resolve(__dirname, "src/lib"),
+      $ass: resolve(__dirname, "src/assets"),
     },
   },
   build: {

@@ -15,7 +15,10 @@
     "checkJs": true,
     "isolatedModules": true,
     "paths": {
-      "$/*": ["./src/*"]
+      "$lib": ["./src/lib"],
+      "$lib/*": ["./src/lib/*"],
+      "$ass": ["./src/ass"],
+      "$ass/*": ["./src/ass/*"]
     }
   },
   "include": ["src/**/*.ts", "src/**/*.js", "src/**/*.svelte"],

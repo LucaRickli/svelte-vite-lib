@@ -1,2 +1,2 @@
 import "./app.css";
-export { default } from "$/App.svelte";
+export { default } from "./App.svelte";
